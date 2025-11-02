@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+.margen{
+    padding: 15px;
+}
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+.centrar{
+    text-align: center;
+}
+
+.Cabecera_Padre{
+  border-top: #ff3281 solid 8px;
+  background-color: #fff9f1;
+  padding: 20px;
+}
+
+.Cabecera_Izquierda{
+  display: inline-block;
+  vertical-align: middle;
+  width: 590px;
+}
+
+.Cabecera_Derecha{
+  display: inline-block;
+  vertical-align: middle;
+  width: 590px;
+  text-align: right;
+}
+
+.botones{
+  display: block;
+  border: 3px black solid;
+  padding: 8px;
+}
+
+.botones a{
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  padding-right: 220px;
+}
+
+.botones a:last-child{
+  padding-right: 0px;
+}
+
+.Promociones{
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Promociones h1{
+  color: white;
+  padding-top: 150px;
+}
+
+.Promociones p{
+  color: white;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.Promociones a{
+  display: inline-block;
+  color: white;
+  margin-top: 30px;
+  padding: 15px;
+  text-decoration: none;
+  border: 2px #ff3281 solid;
+}
+
+.Opcion_Izquierda{
+  background-color: #ff3281;
+  margin-right: 20px;
+}
+
+.Beauty_Info{
+  display: inline-block;
+  width: 590px;
+  vertical-align: top;
+  padding-top: 30px;
+  line-height: 35px;
+}
+
+.Beauty_Info h2{
+  padding-bottom: 30px;
+}
+
+.Beauty_Imagen{
+  padding-top: 30px;
+  display: inline-block;
+  width: 590px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.Puestos{
+  background-color: #fff9f1;
+  padding: 20px;
+}
+
+.Puestos h2{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.Puestos_Izquierda{
+  display: inline-block;
+  width: 590px;
+  vertical-align: middle;
+}
+
+.Puestos_Izquierda img{
+  border-radius: 15px;
+  width: 570px;
+}
+
+.Puestos_Derecha{
+  display: inline-block;
+  width: 590px;
+  vertical-align: middle;
+}
+ .Puestos_Derecha h3{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.Puestos_Derecha p{
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.Noticias{
+  display: inline-block;
+  vertical-align: top;
+  width: 590px;
+  margin-top: 30px;
+}
+
+.Noticias h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 37px;
+  padding-right: 40px;
+  line-height: 35px;
+}
+
+.Noticias p{
+  font-size: 20px;
+}
+
+.Noticias_P{
+  padding-right: 100px;
+  line-height: 35px;
+  margin-top: 15px;
+}
+
+.Rosado{
+  color: #ff3281;
+  font-weight: bolder;
+}
+
+#Formulario{
+  border: #ff3281 solid 4px;
+  border-radius: 5px;
+  margin-right: 70px;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#Formulario label{
+  font-weight: bolder
+}
+
+#Formulario input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-top: 15px;
+  border: 2px #c1bfbf solid;
+  border-radius: 5px;
+  width: 480px;
+}
+
+#Formulario button{
+  margin-top: 15px;
+  background-color: black;
+  padding:10px 40px;
+  color: white;
+  font-weight: bolder;
+}
+
+.Instalaciones{
+  display: inline-block;
+  vertical-align: top;
+  width: 590px;
+  margin-top: 30px;
+}
+
+.Instalaciones h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 37px;
+  line-height: 35px;
+  margin-bottom: 45px;
+}
+
+.Video{
+  border-radius: 10px;
+} 
+
+.Final{
+  border-bottom: #ff3281 solid 8px;
+  background-color: #fff9f1;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.Final_Izquierda{
+  display: inline-flex;
+  width: 590px;
+  vertical-align: middle;
+}
+
+.Final_Derecha{
+  display: inline-block;
+  text-align: right;
+  width: 590px;
+  vertical-align: middle;
+  font-weight: bolder;
+  color: #ff3281;
+}

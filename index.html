@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+  <div class="Cabecera_Padre">
+    <div class="ancho">
+      <div class="Cabecera_Izquierda">
+        <img src="imagenes/logocabecera.jpg" alt="">
+      </div>
+      <div class="Cabecera_Derecha">
+        <img src="imagenes/icono_facebook.jpg" alt="">
+        <img src="imagenes/icono_instagram.jpg" alt="">
+        <img src="imagenes/icono_twitter.jpg" alt="">
+      </div>
+      <div class="botones ancho centrar">
+        <a href="#">GALERIA</a>
+        <a href="#">PRECIOS</a>
+        <a href="#">CONTACTOS</a>
+        <a href="#">EQUIPO</a>
+      </div>
+    </div>
+  </div>
+  <div class="Promociones">
+    <div class="ancho centrar">
+      <h1>PROMOCIONES DE MARZO</h1>
+      <p>
+        Se acercan la epoca de playa y por eso preparamos estas dos <br>
+        promociones ideales para ti
+      </p>
+      <a class="Opcion_Izquierda" href="#">Solicitar Promocion</a>
+      <a href="#">ver Video</a>
+    </div>
+  </div>
+  <div class="ancho">
+    <div class="Beauty_Info">
+      <h2>Los productos Science of Beauty</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatum incidunt aut sed, vitae quas vel consequuntur dolorum ullam neque assumenda totam. At expedita id minus voluptatem laudantium laboriosam! Voluptates molestias soluta dicta cumque nostrum quas quia totam sint minima. Officiis non consequuntur molestias libero at, asperiores vero nam minima.
+      </p>
+    </div>
+    <div class="Beauty_Imagen">
+      <img src="imagenes/fotovelas.jpg" alt="">
+    </div>
+  </div>
+  <div class="Puestos">
+    <div class="ancho">
+      <h2>Buscamos talento para integrarlos a niestro equipo</h2>
+      <div class="Puestos_Izquierda">
+        <img src="imagenes/fotoaromatizante.jpg" alt="">
+      </div>
+      <div class="Puestos_Derecha">
+        <h3>Puesto de trabajo para Recepcionista</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.
+        </p>
+        <h3>Puesto de trabajo para Recepcionista</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.
+        </p>
+        <h3>Puesto de trabajo para Recepcionista</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="ancho">
+    <div class="Noticias">
+      <h2>Recibe noticias y promociones de SPA SALON</h2>
+      <p>
+        Un lugar para consentirte de pies a cabeza <br>Servicio de salón estetica y Spa personalizado
+      </p>
+      <p class="Noticias_P">
+        <span class="Rosado">TELEFONO:</span> 999 420 8871
+        <br>
+        <span class="Rosado">CORREO:</span> info@spasalon.com
+      </p>
+      <form name="Formulario" id="Formulario" action="\loquesea.html" method="get">
+        <label for="Correo">Tu dirección de correo electrónico</label>
+        <input name="Correo" id="Correo" type="email" placeholder="tunombre@example.com">
+        <button name="Boton" id="Boton" type="button">Enviar</button>
+      </form>
+    </div>
+    <div class="Instalaciones">
+      <h2>Nuestras Instalaciones</h2>
+      <iframe class="Video" width="560" height="315" src="https://www.youtube.com/embed/w4qaODLR_Xg?si=F1Co-rGJisIhDVKO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="Final">
+    <div class="ancho">
+      <div class="Final_Izquierda">
+        <img src="imagenes/logo_spa.png" alt="">
+      </div>
+      <div class="Final_Derecha">
+        <p>
+          Cumi Guzman Brian Azael
+          <br>
+          Programacion web
+          <br>
+          7SA
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $("#Boton").click(
+      function(){
+        if ($("#Correo").val().trim()==""){
+          alert("Escribe tu email");
+          $("#Correo").focus();
+          return 0;
+        }
+
+         if (!$("#Correo")[0].checkValidity()){
+          alert("Escribe correctamente tu email");
+          $("#Correo").focus();
+          return 0;
+        }
+
+        document.getElementById("Formulario").submit();
+      }
+    )
+  </script>
+
+</body>
+</html>
